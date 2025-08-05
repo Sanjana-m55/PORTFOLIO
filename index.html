@@ -1185,30 +1185,62 @@ Whether it's crafting predictive ML models,building knowledge graph-driven bots,
         </div>
     </div>
 </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section fade-in">
-        <h2 class="section-title">Let's Connect 📞</h2>
-        <div class="contact-content">
-            <p>I'm always excited to collaborate on innovative projects! Whether you want to chat about AI, data science, or just say hello - I'd love to hear from you! 🌸</p>
-            
-            <div class="contact-links">
-                <a href="mailto:sanjanamahanthesh.g@gmail.com" class="contact-link">
-                    <i class="fas fa-envelope"></i> Email Me
-                </a>
-                <a href="tel:+917892280668" class="contact-link">
-                    <i class="fas fa-phone"></i> Call Me
-                </a>
-                <a href="https://www.linkedin.com/in/sanjana-m--/" target="_blank" rel="noopener" class="contact-link">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-                <a href="https://github.com/Sanjana-m55" target="_blank" rel="noopener" class="contact-link">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-            </div>
+<!-- Contact Section -->
+<section id="contact" class="section fade-in">
+    <h2 class="section-title">Let's Connect 📞</h2>
+    <div class="contact-content">
+        <p>I'm always excited to collaborate on innovative projects! Whether you want to chat about AI, data science, or just say hello - I'd love to hear from you! 🌸</p>
+        
+        <div class="contact-links">
+            <a href="mailto:sanjanamahanthesh.g@gmail.com" class="contact-link">
+                <i class="fas fa-envelope"></i> Email Me
+            </a>
+            <a href="https://github.com/Sanjana-m55" target="_blank" rel="noopener" class="contact-link">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/sanjana-m--/" target="_blank" rel="noopener" class="contact-link">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
         </div>
-    </section>
+    </div>
+</section>
 
+<style>
+    /* Override the contact-links grid to ensure single row */
+    .contact-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin-top: 2rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Ensure contact links don't wrap on smaller screens */
+    @media (max-width: 768px) {
+        .contact-links {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        
+        .contact-link {
+            font-size: 0.9rem;
+            padding: 0.8rem 0.5rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .contact-links {
+            gap: 0.8rem;
+        }
+        
+        .contact-link {
+            font-size: 0.8rem;
+            padding: 0.7rem 0.4rem;
+        }
+    }
+</style>
     <script>
         // Create floating elements
         function createFloatingElements() {
